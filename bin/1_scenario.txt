@@ -1,0 +1,18 @@
+// Login in Gnome
+key_code 96 pressed
+key_code 96 omitted
+sleep 3 second
+key_code 2 pressed
+key_code 2 omitted
+sleep 3 second
+key_code 3 pressed
+key_code 3 omitted
+sleep 1 second
+key_code 3 pressed
+key_code 3 omitted
+sleep 300 microsecond
+key_code 4 pressed
+key_code 4 omitted
+sleep 3 second
+key_code 96 pressed
+key_code 96 omitted

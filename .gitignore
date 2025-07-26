@@ -1,7 +1,4 @@
-# Idris 2
-*.ttc
+# Anyone
+.idea
 *.ttm
 
-# Idris 1
-*.ibc
-*.o

@@ -1,0 +1,21 @@
+// Скриншот экрана с сохранением в папку
+// комбинация Alt+PrtScr
+sleep 1000 microsecond
+код клавиши  56 нажата
+sleep 100 microsecond
+код клавиши  99 нажата
+sleep 3000 microsecond
+код клавиши  56 отпущена
+sleep 1000 microsecond
+код клавиши  99 отпущена
+sleep 1 second
+sleep 1000 microsecond
+код клавиши  56 нажата
+sleep 100 microsecond
+код клавиши  99 нажата
+sleep 3000 microsecond
+sleep 1 second
+код клавиши  56 отпущена
+sleep 1000 microsecond
+код клавиши  99 отпущена
+// пример работы из обычной выдачи ~$showkey

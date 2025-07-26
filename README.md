@@ -7,17 +7,18 @@
 
 Серверные вставки написаны на языке C и в настоящее время работает только в Linux. Но клиентская часть не зависит от платформы, поэтому может быть написана на любой платформе и языке с использованием соединения через сокет TCP.
 
-Посмотреть коды событий при нажатии клавиш в своей системе можно командой _$sudo showkey_
+Посмотреть коды событий при нажатии клавиш в своей системе можно командой _$sudo showkey_. Выдачу можно использовать как готовый скрипт.
 
 ## Установка
 
-```ш
+```shell
 git-клон https://github.com/xela07ax/virtual-hid-keyboard.git
 cd virtual-hid-keyboard/
 ```
 
 # Запуск
-```ш
+Файл примера сценария _scenario.txt включает все команды из которых собирается свой собственный скрипт
+```shell
 sudo /Data/cgo-go-keyboard/hid-keyboard-go /Data/cgo-go-keyboard/ok_1223_scenario.txt
 ```
 2025/07/26 12:32:38 event--> key_code 96 pressed
@@ -26,7 +27,7 @@ sudo /Data/cgo-go-keyboard/hid-keyboard-go /Data/cgo-go-keyboard/ok_1223_scenari
 2025/07/26 12:33:01 event--> key_code 96 pressed
 2025/07/26 12:33:01 event--> key_code 96 omitted
 2025/07/26 12:33:01 Good by
-```ш
+```shell
 cat /proc/bus/input/devices
 ```
 I: Bus=0003 Vendor=1234 Product=5678 Version=0000
